@@ -1,0 +1,14 @@
+{
+  "name": "912-chronium-unhandled-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1029.0",
+    "date-format": "^3.0.0",
+    "puppeteer-core": "^10.1.0",
+    "chrome-aws-lambda": "^10.1.0"
+  }
+}
