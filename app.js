@@ -6,8 +6,6 @@ exports.handler = async (event) => {
     let browser = null;
     let page = null;
     let pdf = null;
-    const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-    console.log('>>>>> Lambda executes <<<<<<');
 
     browser = await chromium.puppeteer.launch({
         dumpio: true,
